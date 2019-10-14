@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
       "target": "es2018",
-      "outDir": "lib",
+      "outDir": "./lib",
       "lib": [
         "dom",
         "dom.iterable",
@@ -14,11 +14,11 @@
       "forceConsistentCasingInFileNames": true,
       "module": "esnext",
       "moduleResolution": "node",
-      "declaration": true,
       "resolveJsonModule": true,
+      "declaration": true,
       "isolatedModules": false,
       "noEmit": false,
       "sourceMap": true,
-      "jsx": "preserve"
+      "jsx": "react"
     }
 }
